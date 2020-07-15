@@ -1,0 +1,30 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            /dev/random
+tagline:          'A Jekyll theme'
+description:      'coding and rambling'
+url:              
+baseurl:          /
+
+author:
+  name:           'Daniel Gyarmati'
+  url:            
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - kramdown

@@ -83,6 +83,12 @@ html {
   font-size: 2.40rem;
 }
 
+@media (min-width: 48em) {
+	.sidebar-about {
+	  padding-bottom: 1rem;
+	}
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
@@ -90,6 +96,7 @@ html {
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  font-size: 1.3rem;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {

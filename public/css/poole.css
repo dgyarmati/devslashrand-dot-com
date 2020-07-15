@@ -261,6 +261,8 @@ tbody tr:nth-child(odd) th {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  font-family: "Untitled Serif",serif;
+  font-style: italic;
 }
 
 

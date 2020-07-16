@@ -121,6 +121,10 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
+.sidebar-nav > p {
+	margin-bottom: 0;
+}
+
 .sidebar-sticky > p {
   font-size: 0.8rem;
 }

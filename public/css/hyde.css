@@ -74,9 +74,8 @@ html {
 .sidebar a {
   position: relative;
   display: inline-block;
-  font-size: 0.8em;
-  font-weight: 800;
-  color: royalblue;
+  font-weight: 700;
+  color: #FFFFFF;
   overflow: hidden;
   background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
   background-clip: text;
@@ -101,7 +100,7 @@ html {
 
 @media (min-width: 48em) {
 	.sidebar-about {
-	  padding-bottom: 1rem;
+	  padding-bottom: 0.5rem;
 	}
 }
 
@@ -112,7 +111,7 @@ html {
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {

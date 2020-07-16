@@ -77,7 +77,7 @@ html {
   font-weight: 700;
   color: #FFFFFF;
   overflow: hidden;
-  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+  background: linear-gradient(to right, #4142ac, #4142ac 50%, #41acab 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -92,7 +92,6 @@ html {
 
 /* About section */
 .sidebar-about h1 {
-  color: #fff;
   margin-top: 0;
   font-family: "Calibre",sans-serif;
   font-size: 2.40rem;

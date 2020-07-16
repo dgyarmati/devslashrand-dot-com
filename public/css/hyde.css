@@ -72,15 +72,23 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-    -moz-transition: color .5s ease;
-    -webkit-transition: color .5s ease;
-    -o-transition: color .5s ease;
-    transition: color .5s ease;
-    transition-property: color;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    text-decoration: none !important;
+  position: relative;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 800;
+  color: royalblue;
+  overflow: hidden;
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.sidebar a:hover {
+  background-position: 0 100%;
 }
 
 /* About section */

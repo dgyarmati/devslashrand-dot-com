@@ -4,31 +4,6 @@ title:  "Python Generators Primer"
 date:   2020-07-17 03:28:52 +0200
 categories: python features
 ---
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
 ### Preamble
 
 All right dudes and dudettes, today we'll take a brief look at a mysterious, useful, and vaguely functional programming-ish feature of Python: generators!
@@ -41,11 +16,11 @@ Let's start with a definition: a generator is a function that returns an iterato
 With that out of the way, let's discuss generators.
 
 ### How generators work?
-Normally, when a function is called, it returns some value, then stops executing[1]. 
+Normally, when a function is called, it returns some value, then stops executing<sup>1</sup>. 
 Generators circumvent this behavior, working kind of like a deep freezer: when used, they 'freeze' the state of the function, so when it returns something, its execution doesn't stop: you can do whatever with the returned value, then get back to the 'frozen' state, and get the next value from it, and the next, and the next, until it runs out... or not (more on that later).
 
 ### Syntax
-It's simple, really: instead of `return`, use `yield` in your function, and voilá - you created a generator function![2] [3] 
+It's simple, really: instead of `return`, use `yield` in your function, and voilá - you created a generator function!<sup>2</sup> <sup>3</sup>
 It helps if you think of `yield` as a `return` statement, after which you can jump back to where you were in the function.
 
 ### Use case

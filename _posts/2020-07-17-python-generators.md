@@ -3,6 +3,7 @@ layout: post
 title:  "Python Generators Primer"
 date:   2020-07-17 03:28:52 +0200
 categories: python features
+tags: [python]
 ---
 ### Preamble
 

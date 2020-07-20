@@ -11,8 +11,10 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
+	
+	{% include tags_for_page.html %}
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }} {{ tags_content }}</span>
 
     {{ post.content }}
   </div>

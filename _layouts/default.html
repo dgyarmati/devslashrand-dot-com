@@ -4,17 +4,11 @@
   {% include head.html %}
 
   <body class="theme-base-08">
-
+    
     {% include sidebar.html %}
 
     <div class="content container">
       {{ content }}
-		<p>
-		  Tagged 
-		  {% for tag in page.tags %}
-		  <a class="post" href="/tag/{{tag}}">#{{tag}}</a>{% unless forloop.last %}, {% endunless %}
-		  {% endfor %}
-		</p>
     </div>
 
   </body>

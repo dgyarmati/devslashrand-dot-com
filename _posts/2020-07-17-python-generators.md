@@ -99,7 +99,7 @@ You have a repeater! Now your only problem is how to stop it from repeating, but
 
 ### Wrapping up
 
-So that's all about generators in Python for today, folks - hope you got a rudimentary picture about their devious ways, and I piqued your interest enough that you start to experiment with them a little. Stay tuned for the next post, where we dive a bit deeper into this very same Python feature, and remember: don't try to build a plasma cannon at home!
+So that's all about generators in Python for today, folks - hope you got a rudimentary picture about their devious ways, and I piqued your interest enough that you start to experiment with them a little. Stay tuned for the next post, and remember: don't try to build a plasma cannon at home!
 
 ---
 

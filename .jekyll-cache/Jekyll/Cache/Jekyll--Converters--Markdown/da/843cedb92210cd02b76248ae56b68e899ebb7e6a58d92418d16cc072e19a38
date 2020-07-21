@@ -1,4 +1,4 @@
-I"n!<h3 id="preamble">Preamble</h3>
+I"/!<h3 id="preamble">Preamble</h3>
 
 <p>All right dudes and dudettes, today we’ll take a brief look at a mysterious, useful, and vaguely functional programming-ish feature of Python: generators!
 Let’s start with a definition: a generator is a function that returns an iterator. The iterator is a separate topic by itself, but to get a cursory understanding of generators, you really only need to know three things about it:</p>
@@ -84,7 +84,7 @@ You come up with this code pretty quickly:</p>
 
 <h3 id="wrapping-up">Wrapping up</h3>
 
-<p>So that’s all about generators in Python for today, folks - hope you got a rudimentary picture about their devious ways, and I piqued your interest enough that you start to experiment with them a little. Stay tuned for the next post, where we dive a bit deeper into this very same Python feature, and remember: don’t try to build a plasma cannon at home!</p>
+<p>So that’s all about generators in Python for today, folks - hope you got a rudimentary picture about their devious ways, and I piqued your interest enough that you start to experiment with them a little. Stay tuned for the next post, and remember: don’t try to build a plasma cannon at home!</p>
 
 <hr />
 

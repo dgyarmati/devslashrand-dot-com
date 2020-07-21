@@ -75,7 +75,7 @@ html {
   position: relative;
   display: inline-block;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   overflow: hidden;
   background: linear-gradient(to right, #f2ab9b, #f2ab9b 50%, #ffffff 50%);
   background-clip: text;
@@ -114,10 +114,6 @@ html {
   font-size: 1.4rem;
 }
 
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
-}
 .sidebar-nav-item.active {
   font-weight: bold;
 }
@@ -131,8 +127,16 @@ a.sidebar-nav-item:focus {
 }
 
 .copyright a {
+  font-weight: 600;
   color: #ffffff;
-  text-decoration: none;
+  overflow: hidden;
+  background: linear-gradient(to right, #f2ab9b, #f2ab9b 50%, #ffffff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
 }
 
 /* Sticky sidebar

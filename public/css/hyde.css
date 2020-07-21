@@ -77,17 +77,22 @@ html {
   font-weight: 700;
   color: #ffffff;
   overflow: hidden;
-  background: linear-gradient(to right, #f2ab9b, #f2ab9b 50%, #ffffff 50%);
+}
+
+.copyright a {
+  font-weight: 600;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.sidebar a:hover, .sidebar-nav a:hover {
+  background: linear-gradient(to left, #f2ab9b, #f2ab9b 50%, #ffffff 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   background-position: 100%;
-  transition: background-position 275ms ease;
-}
-
-.sidebar a:hover, .sidebar-nav a:hover {
-  background-position: 0 100%;
+  transition: background-position 300ms ease;
 }
 
 /* About section */
@@ -124,19 +129,6 @@ html {
 
 .sidebar-sticky > p {
   font-size: 0.8rem;
-}
-
-.copyright a {
-  font-weight: 600;
-  color: #ffffff;
-  overflow: hidden;
-  background: linear-gradient(to right, #f2ab9b, #f2ab9b 50%, #ffffff 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 275ms ease;
 }
 
 /* Sticky sidebar

@@ -8,7 +8,7 @@ tags: [python]
 ### Preamble
 
 All right dudes and dudettes, today we'll take a brief look at a mysterious, useful, and vaguely functional programming-ish feature of Python: generators!
-Let's start with a definition: a generator is a function that returns an iterator. The iterator is a separate topic by itself, but to get a cursory understanding of generators, you really only need to know three things about it:
+Let's start with a definition: a generator is a function that returns an iterator. The iterator is a separate topic by itself, but to get a cursory understanding of generators, you really only need to know three things about it...
 
 <!--more-->
 

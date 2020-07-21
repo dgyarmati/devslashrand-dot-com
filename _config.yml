@@ -28,3 +28,5 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - kramdown
+  
+excerpt_separator: <!--more-->

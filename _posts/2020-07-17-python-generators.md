@@ -10,6 +10,8 @@ tags: [python]
 All right dudes and dudettes, today we'll take a brief look at a mysterious, useful, and vaguely functional programming-ish feature of Python: generators!
 Let's start with a definition: a generator is a function that returns an iterator. The iterator is a separate topic by itself, but to get a cursory understanding of generators, you really only need to know three things about it:
 
+<!--more-->
+
 1. it's an object which can be iterated upon, much like a list
 2. therefore, it can be used in loops
 3. to get the next piece item from an iterator, you can call `next(iterator)`.

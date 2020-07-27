@@ -79,6 +79,15 @@ html {
   overflow: hidden;
 }
 
+.sidebar-about a {
+	font-weight: 700;
+}
+
+.sidebar-nav a {
+	font-weight: 100;
+	font-size: 1.20rem;
+}
+
 .copyright a {
   font-weight: 600;
   color: #ffffff;
@@ -113,15 +122,15 @@ html {
 .sidebar-nav {
   margin-bottom: 1rem;
 }
+
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
   font-size: 1.4rem;
+  font-size: 1.30rem;
+  font-family: "Calibre", sans-serif
 }
 
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
 
 .sidebar-nav > p {
 	margin-bottom: 0;

@@ -3,4 +3,7 @@ layout: page
 title: cv
 ---
 
-Coming soon!
+<p align="center">
+  <img src="../public/portrait.jpg" title="yep, that's me"/>
+  Coming soon!
+</p>

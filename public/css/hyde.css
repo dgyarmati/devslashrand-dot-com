@@ -172,6 +172,7 @@ html {
 
 .sidebar-sharesheet {
     font-size: 80%;
+	padding-bottom: 1rem;
 }
 
 .sidebar-sharesheet a {
@@ -185,6 +186,10 @@ html {
 
 .fa {
   color: #ffffff !important;
+}
+
+.fa:hover {
+  cursor: pointer;
 }
 
 #search {

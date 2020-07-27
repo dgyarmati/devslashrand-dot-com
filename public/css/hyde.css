@@ -59,6 +59,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -68,6 +69,15 @@ html {
     width: 18rem;
     text-align: left;
   }
+}
+
+.sidebar-nav {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em; 
 }
 
 /* Sidebar links */
@@ -86,6 +96,7 @@ html {
 .sidebar-nav a {
 	font-weight: 100;
 	font-size: 1.20rem;
+	display: block;
 }
 
 .copyright a {

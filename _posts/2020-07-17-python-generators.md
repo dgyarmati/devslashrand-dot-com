@@ -105,8 +105,8 @@ So that's all about generators in Python for today, folks - hope you got a rudim
 
 ---
 
-1: If there is no explicit return value, it simply returns `None`.
+<sup>1</sup> If there is no explicit return value, it simply returns `None`.
 
-2: Generators and generator functions are actually separate things, but they go hand in hand - when you're writing a generator function, you will use generators.
+<sup>2</sup> Generators and generator functions are actually separate things, but they go hand in hand - when you're writing a generator function, you will use generators.
 
-3: A generator function can have both `yield` and `return` statements.
+<sup>3</sup> A generator function can have both `yield` and `return` statements.

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archive
+title: archive
 ---
 
 {% include filter_by_tag.html %}

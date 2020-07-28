@@ -39,3 +39,12 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+
+.DS_Store
+_archive
+_drafts
+_site
+_dev
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache

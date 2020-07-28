@@ -227,6 +227,15 @@ html {
   }
 }
 
+#searchinput {
+	border-radius: 0.4rem;
+	height: 1.2rem;
+	border: 0;
+}
+
+input:focus, textarea:focus, select:focus{
+	outline: none;
+}
 
 /*
  * Reverse layout

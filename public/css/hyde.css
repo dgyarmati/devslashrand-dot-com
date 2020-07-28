@@ -105,7 +105,7 @@ html {
   overflow: hidden;
 }
 
-.sidebar a:hover, .sidebar-nav a:hover {
+.sidebar a:hover, .sidebar-nav a:hover, #searchsubmit:hover {
   background: linear-gradient(to left, #f2ab9b, #f2ab9b 50%, #ffffff 50%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -234,7 +234,23 @@ html {
 	padding-left: 0.5rem;
 }
 
-input:focus, textarea:focus, select:focus{
+#searchsubmit {
+	font-family: "Calibre",sans-serif;
+	background: none;
+	width: 0.5rem;
+	color: white;
+	font-size: 1rem;
+	font-weight: 100;
+	padding: 0;
+	text-align: left;
+	border: 0;
+}
+
+#searchsubmit:hover {
+	cursor: pointer;
+}
+
+input:focus, textarea:focus, select:focus {
 	outline: none;
 }
 

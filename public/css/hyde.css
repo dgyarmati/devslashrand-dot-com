@@ -231,6 +231,7 @@ html {
 	border-radius: 0.4rem;
 	height: 1.2rem;
 	border: 0;
+	padding-left: 0.5rem;
 }
 
 input:focus, textarea:focus, select:focus{

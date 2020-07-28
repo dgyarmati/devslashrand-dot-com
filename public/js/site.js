@@ -1,5 +1,16 @@
 ---
 ---
+const searchForm = document.getElementById("searchredirect");
+
+searchForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  let searchInput = searchForm.querySelector("input[type=search]");
+  let originalSearchValue = searchInput.value;
+  searchInput.value = "site:devslashrand.com " + searchInput.value;
+  searchForm.submit();
+  searchInput.value = originalSearchValue;
+});
+
 // Scroll
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {

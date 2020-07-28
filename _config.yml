@@ -24,9 +24,13 @@ version:          2.1.0
 github:
   repo:           https://github.com/poole/hyde
 
+url: https://www.devslashrand.com/
+
 plugins:
   - jekyll-paginate
   - jekyll-gist
   - kramdown
+  - jekyll-sitemap
+  - jekyll-seo-tag
   
 excerpt_separator: <!--more-->

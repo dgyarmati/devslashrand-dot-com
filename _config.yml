@@ -1,22 +1,23 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
 
 # Setup
 title:            /dev/random
-tagline:          'A Jekyll theme'
+tagline:          'coding and rambling'
 description:      'coding and rambling'
 url:              
 baseurl:          /
 
 author:
-  name:           'Daniel Gyarmati'
-  url:            
+  name:           Daniel Gyarmati
+  url:            https://www.devslashrand.com/
 
-paginate:         5
+paginate:         10
+paginate_path: 	  blog/page:num
 
 # Custom vars
 version:          2.1.0
@@ -24,7 +25,7 @@ version:          2.1.0
 github:
   repo:           https://github.com/poole/hyde
 
-url: https://www.devslashrand.com/
+url:            https://www.devslashrand.com/
 
 plugins:
   - jekyll-paginate
